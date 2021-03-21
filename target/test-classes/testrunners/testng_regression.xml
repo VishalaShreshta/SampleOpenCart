@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TN Test automtion regression suite" parallel="tests"
+	thread-count="2">	
+
+	<test name="LoginPage Test">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="87" />
+		<classes>
+			<class name="com.qa.opencart.tests.LoginPageTest" />
+		</classes>
+	</test>
+
+</suite>

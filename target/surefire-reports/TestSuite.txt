@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 4, Time elapsed: 17.317 s <<< FAILURE! - in TestSuite
+setUp(com.qa.opencart.tests.LoginPageTest)  Time elapsed: 9.907 s  <<< FAILURE!
+java.lang.NullPointerException
+

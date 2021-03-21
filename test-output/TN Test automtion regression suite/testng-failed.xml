@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [TN Test automtion regression suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="LoginPage Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="version" value="87"/>
+    <classes>
+      <class name="com.qa.opencart.tests.LoginPageTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="verifyLoginPageTitleTest"/>
+          <include name="setUp"/>
+          <include name="verifyForgotPwdLinkTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.opencart.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- LoginPage Test(failed) -->
+</suite> <!-- Failed suite [TN Test automtion regression suite] -->
